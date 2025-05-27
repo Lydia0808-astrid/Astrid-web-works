@@ -73,6 +73,10 @@ body {
     padding-left: 80px;
 }
 
+.pd-t90 {
+    padding-top: 90px;
+}
+
 .gap-col-24 {
     column-gap: 24px;
 }
@@ -130,12 +134,13 @@ body {
 
 
 /*nar-head*/
-.nar-head{
+.nar-head {
     width: 100%;
     background-color: #FBFBFB;
     z-index: 1000;
 }
-.nar-head a:hover{
+
+.nar-head a:hover {
     color: var(--color-pointcolor);
 }
 
@@ -158,7 +163,6 @@ body {
 .full-BLOG h1 {
     font-size: 120px;
     font-weight: 900;
-
 }
 
 .full-BLOG img {
@@ -343,6 +347,10 @@ body {
     display: flex;
     width: 236px;
     height: 44px;
+}
+
+.footer-GM a:hover {
+    opacity: 0.5;
 }
 
 .copy {
