@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+/*基本設定*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    border: 0 solid;
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+}
+
+body {
+    font-family: "Noto Sans TC", sans-serif;
+    line-height: 1.5;
+    font-weight: 500;
+    background-color: #FBFBFB;
+}
+
+.bder {
+    border: 1px solid #6C757D;
+}
+
+/*變數*/
+:root {
+    --color-pointcolor: #0027d5;
+    --color-minorcolor: #4B4B4B;
+}
+
+/*常用*/
+.color-point {
+    color: var(--color-pointcolor);
+}
+
+.color-minor {
+    color: var(--color-minorcolor);
+}
+
+.fz-24 {
+    font-size: 24px;
+}
+
+.fz28-bold {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+.con-w1296 {
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.pd-2400 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.pd-4800 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.pd-8012 {
+    padding: 80px 12px;
+}
+
+.pd-8048 {
+    padding: 80px 48px;
+}
+
+.pd-l80 {
+    padding-left: 80px;
+}
+
+.gap-col-24 {
+    column-gap: 24px;
+}
+
+.gap-col-40 {
+    column-gap: 40px;
+}
+
+.gap-row-12 {
+    row-gap: 12px;
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+.position-rel {
+    position: relative;
+}
+
+.position-abs {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.row-jcc-aic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-jcc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
