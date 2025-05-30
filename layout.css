@@ -27,6 +27,17 @@ body {
     background-color: #FBFBFB;
 }
 
+html,
+body {
+    scroll-snap-type: y;
+    scroll-behavior: smooth;
+}
+
+.panel {
+    scroll-snap-align: start;
+    scroll-margin-top: 90px;
+}
+
 .bder {
     border: 1px solid #6C757D;
 }
@@ -77,6 +88,10 @@ body {
 
 .pd-8048 {
     padding: 80px 48px;
+}
+
+.pd-t90 {
+    padding-top: 90px;
 }
 
 .pd-l80 {
