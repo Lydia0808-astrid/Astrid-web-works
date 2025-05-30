@@ -30,7 +30,6 @@ body {
 html,
 body {
     scroll-snap-type: y;
-    scroll-behavior: smooth;
 }
 
 .panel {
