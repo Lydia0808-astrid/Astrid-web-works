@@ -60,10 +60,6 @@ body {
     font-size: 24px;
 }
 
-.fz28-bold {
-    font-size: 28px;
-    font-weight: bold;
-}
 
 
 .con-w1296 {
@@ -94,7 +90,7 @@ body {
 }
 
 .pd-l80 {
-    padding-left: 80px;
+    padding-left: clamp(10px, 5vw, 80px);
 }
 
 .gap-col-24 {
